@@ -5,6 +5,7 @@ Hack hack hack.
 I said two lines. At least.
 I made some beautfication in the documentation.
 
+I did some weird stuff in the documentation. And then some more stuff.
 """
 from distutils.cmd import Command
 from distutils.core import setup
