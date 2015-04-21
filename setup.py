@@ -14,6 +14,7 @@ of Carlos anyway...
 I did some weird stuff in the documentation. And then some more stuff.
 
 I just will extend this docu... 
+Adding some random text to the documentation
 """
 from distutils.cmd import Command
 from distutils.core import setup
@@ -22,11 +23,20 @@ from distutils.command.build import build as _build
 import os
 
 import sys
-
-print('Path to the Python executable', sys.executable())
+import numpy as np
+from scypy import stats
 
 
 class Data(Command):
+
+    """
+    Data Class
+
+    Class 
+
+    Parameters
+    ----------
+    """
 
     description = "Convert the NIST database of constants"
 
