@@ -1,6 +1,8 @@
 """This is some documentation for a package without documentation :(
 
 Good documentation is always longer than one line.
+
+Even more documentation.
 """
 from distutils.cmd import Command
 from distutils.core import setup
