@@ -5,6 +5,9 @@ Hack hack hack.
 I said two lines. At least.
 I made some beautfication in the documentation.
 
+Let's see if this changes in the documentation will
+lead to some conficts.
+
 """
 from distutils.cmd import Command
 from distutils.core import setup
