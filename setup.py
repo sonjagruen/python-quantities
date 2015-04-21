@@ -9,7 +9,7 @@ import os
 
 import sys
 
-print sys.executable()
+print 'Path to the Python executable', sys.executable()
 
 class data(Command):
 
