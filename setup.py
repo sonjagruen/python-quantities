@@ -3,6 +3,7 @@
 Good documentation is always longer than one line.
 
 Even more documentation.
+Mmre and more.
 """
 from distutils.cmd import Command
 from distutils.core import setup
