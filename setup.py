@@ -1,4 +1,7 @@
-"""Hack hack hack"""
+"""Hack hack hack. 
+
+I said two lines. At least."""
+
 
 from distutils.cmd import Command
 from distutils.core import setup
