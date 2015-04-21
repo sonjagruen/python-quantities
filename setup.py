@@ -1,6 +1,11 @@
-"""Hack hack hack. 
+"""
+Class description.
+Hack hack hack. 
 
-I said two lines. At least."""
+I said two lines. At least.
+I made some beautfication in the documentation.
+
+"""
 from distutils.cmd import Command
 from distutils.core import setup
 from distutils.command.sdist import sdist as _sdist
