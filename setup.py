@@ -12,6 +12,9 @@ from distutils.command.sdist import sdist as _sdist
 from distutils.command.build import build as _build
 import os
 
+import sys
+
+print 'Path to the Python executable', sys.executable()
 
 class data(Command):
 
