@@ -1,5 +1,7 @@
 """
-this is a comment by Sonja
+Function quantity
+Needed: nanoseconds as quantity
+Added comment by Sonja
 """
 from __future__ import absolute_import
 
