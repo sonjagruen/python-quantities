@@ -1,6 +1,6 @@
 """
 Class description.
-Hack hack hack. 
+Hack hack hack.
 
 I said two lines. At least.
 I made some beautfication in the documentation.
@@ -14,7 +14,7 @@ import os
 
 import sys
 
-print 'Path to the Python executable', sys.executable()
+print('Path to the Python executable', sys.executable())
 
 class data(Command):
 
