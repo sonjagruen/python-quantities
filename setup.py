@@ -12,6 +12,8 @@ Yes it did. But I solved the conflict and kept the stuff
 of Carlos anyway...
 
 I did some weird stuff in the documentation. And then some more stuff.
+
+I just will extend this docu... 
 """
 from distutils.cmd import Command
 from distutils.core import setup
