@@ -1,4 +1,19 @@
 """
+Class description.
+Hack hack hack.
+
+I said two lines. At least.
+I made some beautfication in the documentation.
+
+Let's see if this changes in the documentation will
+lead to some conficts. 
+
+Yes it did. But I solved the conflict and kept the stuff
+of Carlos anyway...
+
+I did some weird stuff in the documentation. And then some more stuff.
+
+I just will extend this docu... 
 Adding some random text to the documentation
 """
 from distutils.cmd import Command

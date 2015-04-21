@@ -6,7 +6,7 @@ CHANGES
 UNRELEASED!
 -----
 
-- Finally fixed documentation
+- Finally fixed documentation (at last!)
 
 -----
 0.10.0
