@@ -2,6 +2,7 @@
 Function quantity
 Needed: nanoseconds as quantity
 Added comment by Sonja
+Second comment for testing rebase
 """
 from __future__ import absolute_import
 
