@@ -1,4 +1,4 @@
-"""This is some documentation for a package without documentation :(
+"""Here we will have a serious conflict. And I will win. This is some documentation for a package without documentation :(
 
 Good documentation is always longer than one line.
 
