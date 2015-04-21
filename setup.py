@@ -23,12 +23,12 @@ import sys
 
 print('Path to the Python executable', sys.executable())
 
-class data(Command):
+
+class Data(Command):
 
     description = "Convert the NIST database of constants"
 
     user_options = []
-
     boolean_options = []
 
     def initialize_options(self):
@@ -57,21 +57,21 @@ class data(Command):
                 f.write("physical_constants['%s'] = %s\n"%(name, d))
 
 
-class sdist(_sdist):
+class SDist(_sdist):
 
     def run(self):
         self.run_command('data')
         _sdist.run(self)
 
 
-class build(_build):
+class Build(_build):
 
     def run(self):
         self.run_command('data')
         _build.run(self)
 
 
-class test(Command):
+class Test(Command):
 
     """Run the test suite."""
 
@@ -126,10 +126,10 @@ setup(
 #        Topic :: Scientific/Engineering
 #        """,
     cmdclass = {
-        'build': build,
-        'data': data,
-        'sdist': sdist,
-        'test': test,
+        'build': Build,
+        'data': Data,
+        'sdist': SDist,
+        'test': Test,
         },
     description = "Support for physical quantities with units, based on numpy",
     download_url = "http://pypi.python.org/pypi/quantities",
