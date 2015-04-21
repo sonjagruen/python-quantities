@@ -3,6 +3,12 @@ CHANGES
 =======
 
 -----
+UNRELEASED!
+-----
+
+- Finally fixed documentation
+
+-----
 0.10.0
 -----
 
