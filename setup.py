@@ -1,3 +1,4 @@
+"""This is some documentation for a package without documentation :("""
 from distutils.cmd import Command
 from distutils.core import setup
 from distutils.command.sdist import sdist as _sdist
