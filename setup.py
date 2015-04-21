@@ -18,7 +18,7 @@ print 'Path to the Python executable', sys.executable()
 
 class data(Command):
 
-    description = "Convert the NIST databas of constants"
+    description = "Convert the NIST database of constants"
 
     user_options = []
 
