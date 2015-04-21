@@ -1,12 +1,6 @@
-"""Here we will have a serious conflict. And I will win. This is some documentation for a package without documentation :(
+"""Hack hack hack. 
 
-Hack hack hack.
-
-Good documentation is always longer than one line.
-
-Even more documentation.
-Mmre and more.
-"""
+I said two lines. At least."""
 from distutils.cmd import Command
 from distutils.core import setup
 from distutils.command.sdist import sdist as _sdist
